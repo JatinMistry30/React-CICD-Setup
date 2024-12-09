@@ -28,4 +28,4 @@ jobs:
 
 
             - name: "deploy to vercel"
-              run: vercel --prod --token=${{ secrets.FIRST_CLI_THING }} --confirm --name=cicdproject
+              run: vercel --prod --token=${{ secrets.VERCEL_TOKEN }} --confirm --name=cicdproject
